@@ -1,4 +1,4 @@
-let score = null //undefined, null, boolean
+let score = undefined //undefined, null, boolean
 
 console.log(typeof score);
 console.log(typeof(score));
