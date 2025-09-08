@@ -37,3 +37,29 @@ console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
 console.log(typeof myFunction);
 console.log(typeof anotherId);
+
+
+
+
+// =============================================================================
+
+// stack(primitive datatype)  && heap(non-primitive)
+
+let myYoutubename = "ankitpal@gmail.com"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email : "ankitpal@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
