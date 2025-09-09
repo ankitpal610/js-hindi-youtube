@@ -6,7 +6,7 @@ const repocount = 50
 console.log(`hello my name is ${name} and my name repo count is ${repocount}`);
 
 
-const gamename = new String('hitesh-hc')
+const gamename = new String('hitesh-hc-ankit')
  
 console.log(gamename[0]);
 console.log(gamename.__proto__);
@@ -29,4 +29,9 @@ const newStringone = "     ankit    "
 console.log(newStringone);
 console.log(newStringone.trim());
 
-console.log("ankit");+
+const url = "https://ankit.com/ankit%20pal"
+
+console.log(url.replace('%20','-'));
+
+console.log(url.includes('sindoor'));
+console.log(gamename.split('-'));
