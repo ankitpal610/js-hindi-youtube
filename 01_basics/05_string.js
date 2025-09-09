@@ -20,6 +20,7 @@ console.log(gamename.indexOf('t'));
 const newString = gamename.substring(0,4);
 console.log(newString);
 
+
 const anotherString = gamename.slice(-8,4)
 console.log(anotherString);
 
@@ -27,3 +28,5 @@ console.log(anotherString);
 const newStringone = "     ankit    "
 console.log(newStringone);
 console.log(newStringone.trim());
+
+console.log("ankit");+
