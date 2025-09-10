@@ -3,7 +3,7 @@
 const myArr = [0,1,2,3,4,5];
 const myHeroes = ["shaktiman","naagraj"]
 
-const myArr2 = new Array(1,2,3,4,5);
+// const myArr2 = new Array(1,2,3,4,5);
 // console.log(myArr);
 // console.log(myArr2[0]);
 
@@ -13,16 +13,19 @@ const myArr2 = new Array(1,2,3,4,5);
 // myArr.push(7)
 // myArr.pop();
 
-
+// console.log(myArr);
 //  myArr.unshift(913);
+// console.log(myArr);
+
 //  myArr.shift();
+// console.log(myArr);
 
 // console.log(myArr.includes(3));
 // console.log(myArr.indexOf(3));
 
 
 
-const newArr = myArr.join();
+// const newArr = myArr.join();
 // console.log(myArr);
 // console.log(newArr);
 // console.log(typeof newArr);
