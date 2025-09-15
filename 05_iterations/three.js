@@ -31,9 +31,11 @@ map.set('IN', "India")
 //     console.log(keys);  // iss tarike se pura ka pura array aa jata h
 // }
 
-for (const [keys,values] of map) {
-    // console.log(keys, ':-' , values);
-}
+// for (const [keys,values] of map) {
+//      console.log(keys, ':-' , values);
+// }
+
+
 
 //  object jo h map se iterable nhi h
 
@@ -42,7 +44,7 @@ const myobject = {
     game2: 'Spiderman'
 }
 
-for (const [key,value] of myobject) {
-    console.log(key, ':-' , value);
+// for (const [key,value] of myobject) {
+//      console.log(key, ':-' , value);
 
-}
+// }
