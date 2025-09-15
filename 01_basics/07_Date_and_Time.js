@@ -18,7 +18,7 @@ let myDate  = new Date();
 
 
 // let  myCreatedDate = new Date(2025,8,25);// this is first methood
-// let  myCreatedDate = new Date("09-25-2025");// this formate is mm-dd-yyyy
+let  myCreatedDate = new Date("09-25-2025");// this formate is mm-dd-yyyy
 // let  myCreatedDate = new Date("2025-09-09");// this formate is yyyy-mm-dd
 // console.log(myCreatedDate.toLocaleString());
 
@@ -43,3 +43,4 @@ let newDate = new Date()
 newDate.toLocaleString('default',{
     weekday: "long"
 });
+// console.log(newDate);

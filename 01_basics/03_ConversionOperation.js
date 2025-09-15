@@ -1,4 +1,4 @@
-let score = undefined //undefined, null, boolean
+let score = "abc" //undefined, null, boolean
 
 console.log(typeof score);
 console.log(typeof(score));
@@ -48,7 +48,7 @@ let str3 = str1 + str2;
 console.log(str3);
 
 console.log("1" + 2);
-console.log(1 + "2");
+console.log(1*6 + "2");
 console.log("1" + 2 + 2);
 console.log(1 + 2 + "4");
 

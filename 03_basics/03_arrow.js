@@ -43,7 +43,8 @@ const user = {
  
 
 // const addtwo = (num1, num2) => {
-//     return num1 + num2              this is basic arrow function yha pr explicitely return hota h 
+//     return num1 + num2    // this is basic arrow function yha pr 
+//                            // explicitely return hota h 
 // }
 
 // const addtwo = (num1, num2) => (num1 + num2) // isko bolte h implicit return ye method react me bhut kaam aayega

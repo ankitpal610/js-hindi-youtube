@@ -1,4 +1,5 @@
-// const tinderUser = new Object()  // this type declaration show singleton object
+// const tinderUser = new Object()  // this type declaration 
+// show singleton object
 const tinderUser = {} //this is not singleton object
 // console.log(tinderUser);
 
@@ -18,7 +19,8 @@ const regularUser = {
         }
     }
 }
-// console.log(regularUser.fullname.user fullname.lastname);
+// console.log(regularUser);
+// console.log(regularUser.fullname.userfullname.lastname);
 
 
 const obj1 = {1: "a", 2: "b"}
@@ -29,13 +31,16 @@ const obj2 = {3: "a", 4: "b"}
 
 // const obj3 = Object.assign({},obj1,obj2) // intersting object assign in mdn
 // console.log(obj3);
- 
+
 const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
 
 
 
-const users = [
+const users = [      // ye syntax tb use krenge jb valuse database se aayegi
+
+    // suppose kro ye users jo aaye h jb database se aayenge to 
+    // array of object aaye h
     {
         id: 1,
         email: "ankit@gmail.com"
@@ -52,6 +57,7 @@ const users = [
 ]
 
 users[1].email
+// console.log(users[1].email);
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));
@@ -75,7 +81,7 @@ const course = {
 
 const {courseInstructor : instructor} = course;
 // console.log(courseInstructor);
-console.log(instructor);
+// console.log(instructor);
 
 
 // {

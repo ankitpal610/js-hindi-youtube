@@ -4,7 +4,8 @@ Object.create
 
 // object literals
 
-const mySym =Symbol("key1") // symbol as key use krna h ya phir ek symbol lo object ke key me add krke dikha do
+const mySym =Symbol("key1") // symbol as key use krna h ya phir ek symbol lo
+//  object ke key me add krke dikha do
 // related to sybol important for interview
 
 
@@ -20,18 +21,18 @@ const jsUser = {
     lastLoginDays: ["Monday","Saturaday"]
 }
 
-console.log(jsUser.email);
-console.log(jsUser["full Name"]);
-console.log(jsUser["email"]);
+// console.log(jsUser.email);
+// console.log(jsUser["full Name"]);
+// console.log(jsUser["email"]);
 // console.log(typeof jsUser.mySym);
-console.log(typeof jsUser[mySym]);
+// console.log(typeof jsUser[mySym]);
 
 jsUser.email = "ankitchatgmpta@.com"
-console.log(jsUser.email);
+// console.log(jsUser.email);
 
 // Object.freeze(jsUser)
 jsUser.email = "shani2424@gmail.com"
-console.log(jsUser);
+// console.log(jsUser);
 
 
 jsUser.greeting = function(){
@@ -39,7 +40,8 @@ jsUser.greeting = function(){
 }
 
 
-console.log(jsUser.greeting);
+console.log(jsUser.greeting);  // yha pr function execute nhi hua bs fucnction 
+// reference aaya h     ==> aage jake bhut use hoga
 console.log(jsUser.greeting());
 
 jsUser.greetingTwo = function(){

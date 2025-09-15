@@ -5,15 +5,17 @@ function sayMyname(){
     console.log("i");
     console.log("t");
 }
+// sayMyname // agr ese print krate h to error nhi aata 
+// iska mtlb h fuction vha rhta mtlb refrece bta rha h 
 
 // sayMyname();
 
-// function addTwoNumbers(number1,number2){
+function addTwoNumbers(number1,number2){
 
-//     console.log(number1 + number2);
-// }
+    console.log(number1 + number2);
+}
 
-// addTwoNumbers(3,null)  //3,a => 3a ; 3,"4" =>34 ; 3, null => 3
+// addTwoNumbers(3,8)  //3,a => 3a ; 3,"4" =>34 ; 3, null => 3
 // const result = addTwoNumbers(3,5);
 // console.log("Result : ",result);
 
@@ -55,15 +57,17 @@ const user = {
     prices: 199
 } 
 
-function handleObject(anyobject){ // function se onbject ko handle ko kaise krete h
-    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+function handleObject(anyobject){ // function se onbject ko handle 
+// ko kaise krete h
+    console.log(`username is ${anyobject.username} and price is 
+        ${anyobject.price}`);
 }
 
 // handleObject(user);
-handleObject({
-    username: "sam",
-    price: 399
-})
+// handleObject({
+//     username: "sam",
+//     price: 399
+// })
 
 
 const myNewArray = [200,400,100,600]
@@ -72,5 +76,5 @@ function returnSecondValue(getArray){
     return getArray[3]
 }
 
-// console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200,400,500,1000]));
+console.log(returnSecondValue(myNewArray));
+// console.log(returnSecondValue([200,400,500,1000]));

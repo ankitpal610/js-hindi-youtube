@@ -1,6 +1,6 @@
 //  array
 
-const myArr = [0,1,2,3,4,5];
+const myArr = [0,1,2,3,4,5,6];
 const myHeroes = ["shaktiman","naagraj"]
 
 // const myArr2 = new Array(1,2,3,4,5);
@@ -21,7 +21,7 @@ const myHeroes = ["shaktiman","naagraj"]
 // console.log(myArr);
 
 // console.log(myArr.includes(3));
-// console.log(myArr.indexOf(3));
+// console.log(myArr.indexOf(1));
 
 
 

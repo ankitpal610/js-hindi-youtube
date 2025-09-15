@@ -1,10 +1,10 @@
-// var c = 300
+var c = 300
 let a = 300;
 
 if(true){
     let a = 10;
     const b = 20;
-    // var c = 30;
+    var c = 30;
     // console.log(a);
     
 }
@@ -33,7 +33,7 @@ if(true){
     const username = "ankit"
     if(username === "ankit"){
         const website = "  youtube"
-        // console.log(username + website);
+        console.log(username + website);
     }
     // console.log(website);
 }
@@ -49,8 +49,9 @@ function addone(num){
 }
 
 
-addtwo(5);
-const addtwo = function(num){   // js ke andar variable kafi powerfull hoti kafi kuchh hold krti h like that json value, function etc
+// addtwo(5);
+const addtwo = function(num){   // js ke andar variable kafi powerfull hoti
+//  kafi kuchh hold krti h like that json value, function etc
 
     return num + 2
 
