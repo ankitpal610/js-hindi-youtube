@@ -6,6 +6,8 @@ const myobject = {
 }
 
 // for (const key in myobject) {
+//     console.log(key);
+    
 //      console.log(`${key} shortcut is for ${myobject[key]}`);     
 // }
 
@@ -13,6 +15,8 @@ const myobject = {
 // const programming = ["js","rb","py","java","cpp"]
 // for (const key in programming) {
 //     console.log(programming[key]);
+//     console.log(key);
+    
        
 // }
 
@@ -31,4 +35,4 @@ const myobject = {
 //    console.log(key);
 // }  
 
-// map iterable nhi h isli;ye forin loop kaam nhi kiya
+// // map iterable nhi h isli;ye forin loop kaam nhi kiya

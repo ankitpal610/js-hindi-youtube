@@ -27,13 +27,16 @@ map.set('IN', "India")
 // console.log(map);
 
 
-// for (const keys of map) {
-//     console.log(keys);  // iss tarike se pura ka pura array aa jata h
-// }
+for (const keys of map) {
+    // console.log(keys);  // iss tarike se pura ka pura array ke form me aa jata h  aur
+    //  iteration standard banane ke liye har pair ko [key,value] array me wrap karke dena easy hai .
+    
+    // console.log(keys[1],keys[0]);
+}
 
-// for (const [keys,values] of map) {
-//      console.log(keys, ':-' , values);
-// }
+for (const [keys,values] of map) {
+    //  console.log(keys, ':-' , values); // isse destructuring direct ho jata h
+}
 
 
 
@@ -44,7 +47,7 @@ const myobject = {
     game2: 'Spiderman'
 }
 
-// for (const [key,value] of myobject) {
-//      console.log(key, ':-' , value);
+for (const [keys, value] of myobject) {
+     console.log(key, ':-' , value);
 
-// }
+}
