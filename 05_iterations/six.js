@@ -2,7 +2,7 @@
 
 
 // const values = coding.forEach( (item) => {
- // console.log(item);  
+//  console.log(item);  
 //     return item
 // })
 
@@ -27,11 +27,13 @@ const myNums = [1,2,3,4,5,6,7,8,9,10]
 //         newNums.push(num)
 //     }
 // })
+// console.log(newNums);
+
 
 
 // const newNums = myNums.filter( (num) => num > 4) 
 
-// filter jo h  value ko return krta h islite variable me store krte h
+// //filter jo h  value ko return krta h islite variable me store krte h
 // console.log(newNums)
 
 
