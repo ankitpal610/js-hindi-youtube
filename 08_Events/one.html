@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOCUMENT</title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+    <h2 style="color: darkblue;">Amazing images</h2>
+    <div>
+        <ul id="images">
+            <li><img  width="200px" height="200px"  src="https://images.pexels.com/photos/33769387/pexels-photo-33769387.jpeg" id="photoshop" alt="photoshop"></li>
+            <li><img  width="200px" height="200px"  src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=" id="japan" alt=""></li>
+            <li><img  width="200px" height="200px"  src="https://media.istockphoto.com/id/1031430214/photo/young-woman-kayaking-through-the-backwaters-of-monroe-island.jpg?b=1&s=612x612&w=0&k=20&c=0Dhs89JHp6fvctm9s3_xfbS0mOOctalzcs-E-KasQXY=" id="river" alt=""></li>
+            <li><img  width="200px" height="200px"  src="https://images.pexels.com/photos/18266340/pexels-photo-18266340.jpeg" id="owl"  alt=""></li> <!--onclick="alert('owl')"-->
+            <li><img  width="200px" height="200px"  src="https://media.istockphoto.com/id/1955208745/photo/groom-with-folded-hands-during-his-wedding-ceremony.jpg?b=1&s=612x612&w=0&k=20&c=Fv6OuUTYLlDTXVWhVzcurnEmTMVqqAZp754EIZTI-GA=" id="prayer" alt=""></li>
+            <li><a  style="color: aliceblue;" href="https://google.com" id="Google">Google</a></li>
+        </ul>
+    </div>
+    
+    
+</body>
+<script>
+    // document.getElementById('owl').onclick = function () {
+    //     alert('owl clicked')
+    // }
+
+
+// atachEvent()
+// jQuery-on
+
+
+//  type,timestamp,preventdefault,target,toElement,currentTarget
+// clientX,clientY,screenX,screenY,altkey,ctrlkey, shiftkey,keycode
+
+
+// document.getElementById('owl').addEventListener('click',function (e) {
+//     console.log(e);
+// },false)
+
+
+
+    // document.getElementById('images').addEventListener('click',function (e) {
+    //     console.log("clicked inside the ul ");
+
+    // },false)
+
+    // document.getElementById('owl').addEventListener('click',function (e) {
+    //  console.log("owl was clicked ");
+    //  e.stopPropagation();
+     
+    // },false)
+
+    // document.getElementById('Google').addEventListener('click',function (e) {
+    //  console.log(" google was clicked");
+    //  e.preventDefault();
+    //  e.stopPropagation();
+    // },false)
+
+
+    document.querySelector('#images').addEventListener('click', function (e) {
+        console.log(e.target);        
+        console.log(e.target.parentNode);  
+        console.log(e.target.tagName); 
+        
+        if (e.target.tagName === 'IMG') {
+            let removeIt = e.target.parentNode
+        removeIt.remove();
+        console.log(e.target.id);        
+
+        }
+        
+        // let removeIt = e.target.parentNode
+        // removeIt.remove();
+    })
+
+    // removeIt.parentNode.removeChild(removeIt)
+
+
+
+
+
+
+</script>
+
+</html>
